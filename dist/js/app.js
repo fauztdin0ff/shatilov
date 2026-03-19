@@ -909,7 +909,7 @@ Init
 document.addEventListener('DOMContentLoaded', () => {
    initHeroSlider();
    initPartnersSlider();
-   initAudit();
+   /* initAudit(); */
    initCasesSlider();
    initLawsTabs();
    initReviewsSlider();
