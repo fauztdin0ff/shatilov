@@ -297,35 +297,6 @@ _modules_functions_js__WEBPACK_IMPORTED_MODULE_0__.burgerMenu();
 _modules_functions_js__WEBPACK_IMPORTED_MODULE_0__.popups();
 _modules_functions_js__WEBPACK_IMPORTED_MODULE_0__.phoneMask();
 
-/*==========================================================================
-Observer Animation
-============================================================================*/
-/* if (document.readyState === "complete") {
-   init();
-} else {
-   window.addEventListener("load", init);
-}
-
-function init() {
-   function onEntry(entry) {
-      entry.forEach(change => {
-         if (change.isIntersecting) {
-            change.target.classList.add('element-show');
-         }
-      });
-   }
-
-   let options = { threshold: [0.4] };
-   let observer = new IntersectionObserver(onEntry, options);
-   let elements = document.querySelectorAll('.element-animation');
-   for (let elm of elements) {
-      observer.observe(elm);
-   }
-} */
-
-
-
-
 
 /*==========================================================================
 Particles
@@ -508,7 +479,7 @@ function initPartnersSlider() {
 /*==========================================================================
 Audit 
 ============================================================================*/
-function initAudit() {
+/* function initAudit() {
    const audit = document.querySelector('.audit__main');
    if (!audit) return;
 
@@ -592,7 +563,7 @@ function initAudit() {
    });
    showQuestion(current);
 }
-
+ */
 
 /*==========================================================================
 Cases slider

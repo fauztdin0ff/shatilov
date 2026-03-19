@@ -311,6 +311,7 @@ Header
   z-index: 999;
   color: #fff;
   background: rgba(4, 37, 75, 0.5);
+  -webkit-backdrop-filter: blur(4px);
   backdrop-filter: blur(4px);
 }
 .header.-bg {
@@ -2458,4 +2459,11 @@ Request
     text-wrap: balance;
     max-width: 270px;
   }
+}
+/*==========================================================================
+Quiz
+============================================================================*/
+.fv-quiz__body iframe {
+  width: 100%;
+  height: auto;
 }
