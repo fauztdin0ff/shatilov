@@ -916,6 +916,17 @@ Home
     text-wrap: balance;
   }
 }
+.hero__buttons {
+  justify-content: flex-start;
+  margin-top: 20px;
+  position: relative;
+  z-index: 6;
+}
+@media (width < 767px) {
+  .hero__buttons .btn {
+    padding: 12px 30px;
+  }
+}
 .hero .slider-pagination {
   width: 50vw;
   z-index: 5;
